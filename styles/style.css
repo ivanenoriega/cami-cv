@@ -1,25 +1,26 @@
-* {
-  margin: 0px;
-  padding: 0px;
-}
-
 #home {
   background-image: url(oficina.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
-  height: 700px;
+  height: 100vh;
   opacity: 0.8;
 }
 
-header nav {
+#home nav {
   float: right;
-  padding-right: 4%;
-  padding-top: 8%;
+  margin-right: 4%;
+  margin-top: 150px;
 }
 
-header nav li {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+@media screen and (max-width: 800px) {
+  #home nav {
+    float: none;
+    margin: 0 auto;
+  }
+}
+
+#home nav li {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   font-size: 30px;
   display: inline;
   padding-left: 15px;
@@ -29,44 +30,55 @@ header nav li {
   font-weight: bold;
 }
 
-header nav li a {
+#home nav li a {
   text-decoration: inherit;
   color: inherit;
   padding-left: 10px;
   padding-right: 10px;
 }
 
-header nav li a:hover {
+#home nav li a:hover {
   background-color: white;
   border-radius: 5px;
 }
 
 #nombre {
-  position: absolute;
-  left: 58%;
-  top: 45%;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  margin-right: 5%;
   text-align: center;
+  float: right;
+  clear: right;
+  margin-top: 150px;
+  margin-right: 10%;
+}
+
+@media screen and (max-width: 800px) {
+  #nombre {
+    float: none;
+    position: relative;
+    margin: 0 auto;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
 }
 
 #nombre h1 {
   font-size: 50px;
   color: #fafafa;
-  text-align: center;
   text-shadow: #50240a 2.5px 2.5px;
 }
 
-#nombre h4 {
+#nombre p {
   font-size: 28px;
   color: #fafafa;
-  text-align: center;
   letter-spacing: 0.5px;
-  margin-top: 5%;
   text-shadow: #50240a 2.5px 2.5px;
   word-spacing: 0.5px;
-  position: relative;
-  left: 0.5%;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
 }
 
 #sobremi {
@@ -114,8 +126,7 @@ header nav li a:hover {
   left: 8%;
   bottom: 25%;
   color: #929292;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 
 #skills {
@@ -140,8 +151,7 @@ header nav li a:hover {
   color: #929292;
   font-size: 20px;
   font-weight: bold;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 
 #codigo {
@@ -211,8 +221,7 @@ header nav li a:hover {
 #proyectos .imagenes #podcast button h2 {
   text-align: center;
   padding: 6px;
-  font-family: "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
-    sans-serif;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   color: wheat;
   font-size: 30px;
   font-weight: bold;
@@ -243,8 +252,7 @@ header nav li a:hover {
 #proyectos .imagenes #gif button h2 {
   text-align: center;
   padding: 6px;
-  font-family: "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
-    sans-serif;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   color: wheat;
   font-size: 30px;
   font-weight: bold;
@@ -278,8 +286,7 @@ header nav li a:hover {
   padding: 3%;
   color: #929292;
   font-size: 25px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   list-style: none;
 }
 
@@ -339,4 +346,4 @@ footer {
   background-color: grey;
   height: 200px;
 }
-/*# sourceMappingURL=portfolio.css.map */
+/*# sourceMappingURL=style.css.map */
