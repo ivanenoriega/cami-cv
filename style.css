@@ -1,0 +1,342 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#home {
+  background-image: url(oficina.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 700px;
+  opacity: 0.8;
+}
+
+header nav {
+  float: right;
+  padding-right: 4%;
+  padding-top: 8%;
+}
+
+header nav li {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 30px;
+  display: inline;
+  padding-left: 15px;
+  list-style: none;
+  line-height: 60px;
+  color: #f85656;
+  font-weight: bold;
+}
+
+header nav li a {
+  text-decoration: inherit;
+  color: inherit;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+header nav li a:hover {
+  background-color: white;
+  border-radius: 5px;
+}
+
+#nombre {
+  position: absolute;
+  left: 58%;
+  top: 45%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-right: 5%;
+  text-align: center;
+}
+
+#nombre h1 {
+  font-size: 50px;
+  color: #fafafa;
+  text-align: center;
+  text-shadow: #50240a 2.5px 2.5px;
+}
+
+#nombre h4 {
+  font-size: 28px;
+  color: #fafafa;
+  text-align: center;
+  letter-spacing: 0.5px;
+  margin-top: 5%;
+  text-shadow: #50240a 2.5px 2.5px;
+  word-spacing: 0.5px;
+  position: relative;
+  left: 0.5%;
+}
+
+#sobremi {
+  width: 90%;
+}
+
+#sobremi h1 {
+  color: #f85656;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 60px;
+  position: relative;
+  left: 10%;
+  margin-bottom: 3%;
+}
+
+#sobremi #section2 {
+  padding: 3% 10%;
+  height: 300px;
+  position: absolute;
+}
+
+#sobremi #section2 #foto {
+  width: 300px;
+  height: 350px;
+  border: #f59797 solid 4px;
+  border-radius: 2px;
+  margin-left: 5%;
+}
+
+#sobremi #section2 #imagen {
+  width: 20%;
+  float: left;
+  position: relative;
+  right: 4.5%;
+  bottom: 13%;
+}
+
+#sobremi #section2 #quiensoy {
+  width: 80%;
+  display: inline-block;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 1px;
+  position: relative;
+  left: 8%;
+  bottom: 25%;
+  color: #929292;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+#skills {
+  position: relative;
+  float: right;
+  top: 4%;
+  right: 60%;
+}
+
+#skills h2 {
+  color: #f85656;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 40px;
+}
+
+#skills ul {
+  margin-top: 17%;
+}
+
+#skills ul li {
+  padding: 4%;
+  color: #929292;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+#codigo {
+  position: relative;
+  left: 6%;
+  float: right;
+  margin-top: 13%;
+}
+
+#codigo img {
+  opacity: 0.9;
+  border-radius: 5px;
+}
+
+#proyectos {
+  margin-top: 38%;
+  height: 800px;
+  position: relative;
+  background-color: #ebe7e7;
+}
+
+#proyectos #misproyectos {
+  width: 90%;
+}
+
+#proyectos #misproyectos h1 {
+  color: #f85656;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 60px;
+  position: relative;
+  left: 8%;
+  padding-top: 3%;
+}
+
+#proyectos .imagenes {
+  position: absolute;
+  margin-left: 60px;
+  height: 20px;
+  margin-top: 4%;
+}
+
+#proyectos .imagenes img {
+  border: grey 3px groove;
+  border-radius: 4px;
+}
+
+#proyectos .imagenes #podcast {
+  width: 50%;
+  float: left;
+  left: 25%;
+  position: relative;
+  top: 40%;
+}
+
+#proyectos .imagenes #podcast button {
+  margin-left: 20%;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  background-color: #f85656;
+  border-color: #f85656;
+}
+
+#proyectos .imagenes #podcast button a {
+  text-decoration: none;
+}
+
+#proyectos .imagenes #podcast button h2 {
+  text-align: center;
+  padding: 6px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
+    sans-serif;
+  color: wheat;
+  font-size: 30px;
+  font-weight: bold;
+  text-shadow: #fafafa;
+}
+
+#proyectos .imagenes #gif {
+  width: 50%;
+  float: right;
+  position: relative;
+  top: 93px;
+  left: 80px;
+}
+
+#proyectos .imagenes #gif button {
+  left: 50%;
+  bottom: 560px;
+  border-radius: 8px;
+  background-color: #f85656;
+  border-color: #f85656;
+  position: relative;
+}
+
+#proyectos .imagenes #gif button a {
+  text-decoration: none;
+}
+
+#proyectos .imagenes #gif button h2 {
+  text-align: center;
+  padding: 6px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
+    sans-serif;
+  color: wheat;
+  font-size: 30px;
+  font-weight: bold;
+  text-shadow: #fafafa;
+}
+
+#section4 {
+  background-color: white;
+  height: 600px;
+  width: 90%;
+}
+
+#section4 h1 {
+  color: #f85656;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 60px;
+  position: relative;
+  left: 8%;
+  padding-top: 3%;
+}
+
+#section4 #misdatos {
+  width: 50%;
+  position: relative;
+  float: left;
+  left: 15%;
+  top: 10%;
+}
+
+#section4 #misdatos li {
+  padding: 3%;
+  color: #929292;
+  font-size: 25px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  list-style: none;
+}
+
+#section4 #formcontacto {
+  width: 50%;
+  margin-left: 60%;
+  bottom: 32%;
+  float: right;
+  position: relative;
+  left: 10%;
+}
+
+#section4 #formcontacto label {
+  display: block;
+  margin-top: 10px;
+  letter-spacing: 1px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande";
+  color: grey;
+}
+
+#section4 #formcontacto input {
+  width: 380px;
+  height: 20px;
+  background: #f1f1f1;
+  border: 2px solid #f3a9a9;
+  padding: 10px;
+  margin-top: 5px;
+  font-size: 10px;
+  color: #ffffff;
+}
+
+#section4 #formcontacto textarea {
+  width: 380px;
+  height: 40px;
+  background: #f1f1f1;
+  border: 2px solid #f3a9a9;
+  padding: 10px;
+  margin-top: 5px;
+  font-size: 10px;
+  color: #ffffff;
+}
+
+#section4 #formcontacto button {
+  width: 100px;
+  padding: 3px;
+  border: 2px solid #f3a9a9;
+  color: black;
+  background: #f1f1f1;
+  font-size: 25px;
+  position: relative;
+  top: 50px;
+  right: 67.5%;
+  border-radius: 4px;
+}
+
+footer {
+  background-color: grey;
+  height: 200px;
+}
+/*# sourceMappingURL=portfolio.css.map */
